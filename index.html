@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo Simples - Clique no Círculo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Clique no Círculo</h1>
+    <p class="score">Pontuação: <span id="score">0</span></p>
+    <button class="start-button" onclick="startGame()">Iniciar Jogo</button>
+    <div class="circle hidden" id="circle" onclick="increaseScore()"></div>
+    <p id="timer">Tempo restante: 10 segundos</p>
+  </div>
+ <script src="main.js"></script>
+</body>
+</html>
