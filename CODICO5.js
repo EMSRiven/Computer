@@ -1,1 +1,0 @@
-System.out.pirntn("kamille");
